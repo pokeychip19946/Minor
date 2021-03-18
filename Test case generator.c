@@ -20,8 +20,8 @@ main()
 {
    freopen
    int a=1,b=2,cnt=1,flag=0,ok=0,count=0,cnt1=0;
-    int edges=1000000;
-    int nodes=80000;
+    int edges=1000000;//input no.of edges of your choice
+    int nodes=80000; ////input no.of nodes of your choice
      printf("%lld\n",nodes);
      printf("%lld\n",edges);
     for(int i=1;i<=edges;i++)
